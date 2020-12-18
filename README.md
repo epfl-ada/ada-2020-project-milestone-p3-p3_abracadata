@@ -15,9 +15,9 @@ We will then introduce a new dataset about urban social unrest to our analysis. 
 - https://www.prio.org/Data/Armed-Conflict/Urban-Social-Disorder/ : Peace Research Institute Oslo’s Urban Social Disorder dataset.This dataset compiles urban social disorder events occuring in capitals and other major cities of the developing world through the 1960-2014 period. We will produce a general indicator from these events that characterizes the level of tension in a given country’s urban areas and assess how the models trained on the CWD are able to predict this indicator.
 
 ### Methods
-- **New models**: We will use new classifiers (Boosted tree classifier and Multilayer Perceptron) and use them on the CWD dataset, in a similar fashion to the original paper’s first part.
+- **New models**: We will use new classifiers (Boosted tree classifier and Multilayer Perceptron) and use them on the CWD, in a similar fashion to the original paper’s first part.
 - **Direct handling of class imbalance**: We aim to tackle class imbalance by using data augmentation / resampling, namely we plan on using the SMOTE algorithm.
-- **Data analysis**: Beyond these specific approaches, we will utilize standard data science methods to acquire, clean, join, and select our data as well as to analyze and visualize the results.
+- **Urban Social Disorder (USD) Dataset**: From the USD, we will use the two features `BYEAR` and `GWNO` to merge it with the CWD. We will use the feature `PTYPE` (Problem Type) to develop a simple measure of urban unrest. We will then merge this urban unrest factor with the CWD and use CWD's features will all the classifiers we developped so far to see if these can predict urban disorder effectively. 
 
 ### Proposed timeline
 
@@ -38,3 +38,10 @@ We will then introduce a new dataset about urban social unrest to our analysis. 
 
 
 - Maxime: implemented boosted trees, worked on visualizations and model comparaison analysis, integrated USD dataset
+
+
+### Tasks done
+
+- Maxime: Evaluated performance of boosted trees, worked on data visualizations and model comparaison analysis for report, integrated USD dataset, report writing
+- Arnaud: added SMOTE resampling and associated F1 testing and visualizations, helped integrate USD data, report writing
+- Alexander: Evaluated performance of Multilayer Perceptron, data scaling, conducted data exploration and report review.
