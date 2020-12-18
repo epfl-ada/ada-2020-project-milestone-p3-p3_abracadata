@@ -42,6 +42,6 @@ We will then introduce a new dataset about urban social unrest to our analysis. 
 
 ### Tasks done
 
-- Maxime: Evaluated performance of boosted trees, worked on data visualizations and model comparaison analysis for report, integrated USD dataset, report writing
+- Maxime: Evaluated performance of boosted trees, worked on data visualizations and model comparaison analysis for report, integrated USD dataset and trained classifiers on it, report writing
 - Arnaud: added SMOTE resampling and associated F1 testing and visualizations, helped integrate USD data, report writing
 - Alexander: Evaluated performance of Multilayer Perceptron, data scaling, conducted data exploration and report review.
