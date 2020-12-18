@@ -37,4 +37,4 @@ We will then introduce a new dataset about urban social unrest to our analysis. 
 - For week 3 Maxime will work on the report, Arnaud and Alex will prepare the video.
 
 
-
+- Maxime: implemented boosted trees, worked on visualizations and model comparaison analysis, integrated USD dataset
